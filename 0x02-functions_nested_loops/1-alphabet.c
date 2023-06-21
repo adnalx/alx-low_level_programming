@@ -1,14 +1,19 @@
-#include <main.h>
+#include "main.h"
 /**
- * prints the alphabet
+ * print_alphabet - print alphabet
+ *
+ * Retutn: void
+ *
  */
 void print_alphabet(void)
 {
-	char a = 'a';
-	while (a <= '2')
+	char a;
+
+	a = 'a';
+	while (a <= 'z')
 	{
 		_putchar(a);
 		a++;
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
